@@ -1,0 +1,35 @@
+.re-navbar {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+}
+
+.re-navbar-item-column, .re-navbar-item-row {
+    width: auto;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.re-navbar-item-column {
+    width: 100%;
+}
+
+.re-navbar-title {
+    white-space: nowrap;
+}
+
+.re-navbar-icon {
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
